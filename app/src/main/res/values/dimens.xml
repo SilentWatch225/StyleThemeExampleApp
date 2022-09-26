@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textViewWidth">300dp</dimen>
+    <dimen name="textViewHeight">60dp</dimen>
+    <dimen name="textViewLeftPadding">10dp</dimen>
+    <dimen name="textViewRightPadding">10dp</dimen>
+    <dimen name="textViewTopPadding">10dp</dimen>
+    <dimen name="textViewBottomPadding">10dp</dimen>
+    <dimen name="textViewFontSize">25dp</dimen>
+    <dimen name="textViewTopMargin">30dp</dimen>
+    <dimen name="textViewBottomMargin">30dp</dimen>
+    <dimen name="textViewLeftMargin">50dp</dimen>
+    <dimen name="textViewRightMargin">50dp</dimen>
+    <dimen name="editTextWidth">300dp</dimen>
+    <dimen name="editTextHeight">60dp</dimen>
+    <dimen name="editTextLeftPadding">15dp</dimen>
+    <dimen name="editTextRightPadding">15dp</dimen>
+    <dimen name="editTextTopPadding">15dp</dimen>
+    <dimen name="editTextBottomPadding">15dp</dimen>
+    <dimen name="editTextFontSize">25dp</dimen>
+    <dimen name="editTextTopMargin">20dp</dimen>
+    <dimen name="editTextBottomMargin">20dp</dimen>
+    <dimen name="editTextLeftMargin">40dp</dimen>
+    <dimen name="editTextRightMargin">40dp</dimen>
+    <dimen name="buttonWidth">300dp</dimen>
+    <dimen name="buttonHeight">60dp</dimen>
+    <dimen name="buttonLeftPadding">10dp</dimen>
+    <dimen name="buttonRightPadding">10dp</dimen>
+    <dimen name="buttonTopPadding">10dp</dimen>
+    <dimen name="buttonBottomPadding">10dp</dimen>
+    <dimen name="buttonFontSize">25dp</dimen>
+    <dimen name="buttonTopMargin">30dp</dimen>
+    <dimen name="buttonBottomMargin">30dp</dimen>
+    <dimen name="buttonLeftMargin">50dp</dimen>
+    <dimen name="buttonRightMargin">50dp</dimen>
+
+</resources>

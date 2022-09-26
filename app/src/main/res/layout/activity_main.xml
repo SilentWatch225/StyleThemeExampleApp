@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <EditText
+            android:id="@+id/firstET"
+            android:textSize="@dimen/editTextFontSize"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/textViewTopMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/editTextLeftPadding"
+            android:paddingTop="@dimen/editTextTopPadding"
+            android:paddingRight="@dimen/editTextRightPadding"
+            android:paddingBottom="@dimen/editTextBottomPadding"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="What is your Name?" />
+
+        <TextView
+            android:id="@+id/firstTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textViewFontSize"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/textViewTopMargin"
+            android:paddingLeft="@dimen/textViewLeftPadding"
+            android:paddingTop="@dimen/textViewTopPadding"
+            android:paddingRight="@dimen/textViewRightPadding"
+            android:paddingBottom="@dimen/textViewBottomPadding"
+            android:text=""
+            />
+
+
+        <EditText
+            android:id="@+id/secondET"
+            android:textSize="@dimen/editTextFontSize"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/textViewTopMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/editTextLeftPadding"
+            android:paddingTop="@dimen/editTextTopPadding"
+            android:paddingRight="@dimen/editTextRightPadding"
+            android:paddingBottom="@dimen/editTextBottomPadding"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="How old are you?" />
+
+        <TextView
+            android:id="@+id/secondTV"
+            android:textSize="@dimen/textViewFontSize"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/textViewTopMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/textViewLeftPadding"
+            android:paddingTop="@dimen/textViewTopPadding"
+            android:paddingRight="@dimen/textViewRightPadding"
+            android:paddingBottom="@dimen/textViewBottomPadding"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/thirdET"
+            android:textSize="@dimen/editTextFontSize"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/textViewTopMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/editTextLeftPadding"
+            android:paddingTop="@dimen/editTextTopPadding"
+            android:paddingRight="@dimen/editTextRightPadding"
+            android:paddingBottom="@dimen/editTextBottomPadding"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="How are you doing?" />
+
+        <TextView
+            android:id="@+id/thirdTV"
+            android:textSize="@dimen/textViewFontSize"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/textViewTopMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/textViewLeftPadding"
+            android:paddingTop="@dimen/textViewTopPadding"
+            android:paddingRight="@dimen/textViewRightPadding"
+            android:paddingBottom="@dimen/textViewBottomPadding"
+            android:hint="" />
+
+        <Button
+            android:id="@+id/firstButton"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/buttonTopMargin"
+            android:text="Click This!"
+            android:onClick="ret"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

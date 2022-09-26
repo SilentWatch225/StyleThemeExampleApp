@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Style_Theme_Example_App" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Text Color -->
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.BlueColors" parent="Theme.AppCompat.DayNight">
+        <!-- Text Color -->
+        <item name="android:textColor">@color/purple_200</item>
+        <item name="android:textColorHint">@color/purple_500</item>
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/navy_blue</item>
+        <item name="colorOnPrimary">@color/cream</item>
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/sky_blue</item>
+        <item name="colorSecondaryVariant">@color/jean_blue</item>
+        <item name="colorOnSecondary">@color/cream</item>
+        <!-- Status Bar color -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/navy_blue</item>
+
+    </style>
+
+</resources>
